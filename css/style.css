@@ -3,14 +3,29 @@ h1,h2,h3 {
 }
 
 header h1 {
-
     color: red;
-
-
 }
 
 #mes-etudes {
-
     background-color: deeppink;
+}
 
+#mes-implications-sociales {
+    background-color: crimson;
+}
+
+#mon-parcours {
+    background-color: aqua;
+}
+
+#mes-voyages {
+    background-color: gold;
+}
+
+#mes-realisations {
+    background-color: aquamarine;
+}
+
+.section {
+    border-bottom: black 1px;
 }
