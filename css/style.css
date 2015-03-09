@@ -1,31 +1,95 @@
+/*section générale*/
+
 h1,h2,h3 {
     font-family: 'Slabo 27px', serif;
 }
+p {
+    font-family: monospace;
+}
+
+
+
+
+/*navigation*/
+nav ul {
+    list-style-type: none;
+}
+
+
+section, article {
+    border-bottom: 3px dashed black;
+}
+
+
+/*exemple heritage
+header {
+color: red;
+}
+*/
 
 header h1 {
     color: red;
 }
 
+header h2 {
+    color: white;
+}
+
+
+#introduction {
+    /*font-size: 200px:*/
+    font-size: x-large;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: inherit;
+}
+
 #mes-etudes {
     background-color: deeppink;
+    text-align: center;
+    line-height: 15px;
 }
 
 #mes-implications-sociales {
     background-color: crimson;
+    text-align: inherit;
 }
 
 #mon-parcours {
     background-color: aqua;
+    text-align: justify;
+    line-height: 25px;
 }
 
 #mes-voyages {
     background-color: gold;
+    text-align: end;
+    line-height: 20px;
 }
 
 #mes-realisations {
     background-color: aquamarine;
+    text-align: inherit;
 }
 
-.section {
+section {
     border-bottom: black 1px;
+}
+
+h1, h2, h3 {
+    margin-left: 50px;
+}
+
+ul li h3 {
+    margin-left: 60px;
+}
+p {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+#me-contacter {
+    inline-box-align: 20px;
 }
